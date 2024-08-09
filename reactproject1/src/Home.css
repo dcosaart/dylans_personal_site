@@ -1,0 +1,173 @@
+
+@import "./App.css";
+
+
+body{
+    text-align:start;
+    border:2px groove var(--blue);
+    padding:5px;
+    
+
+}
+h1{
+    text-align:center;
+}
+
+
+#first_section{
+    margin:0px auto 0px auto;
+    width:80%;
+    margin-bottom:15%;
+}
+#second_section {
+    margin: 0px auto 0px auto;
+    width: 80%;
+}
+#cardsSection {
+    display: flex;
+    flex-direction: column; /* Stack cards vertically */
+    flex-wrap: nowrap; /* Ensure no wrapping */
+    align-items: flex-end; /* Align items to the right */
+    position: relative;
+}
+
+.card {
+    box-shadow:0 0 1px 1px var(--gray);
+    /*border: 3px solid var(--gray);  */
+    background-color: var(--blue);
+    width: 60%; /* Ensure cards take full width */
+    margin-right:auto; /* Space between cards */
+    margin-top:20%;
+    display: flex; /*Use flexbox within each card */
+    justify-content: flex-end; /* Align content to the right */
+    
+}
+
+.right {
+    /* No need for position absolute here */
+    margin-right: 0px; /* Optional: space from the right edge */
+}
+
+.rounded{
+    width: 75%;
+    border:2px solid var(--leather);
+    margin:5px;
+    height:300px;
+}
+
+
+.card-header{
+    background: var(--leather);
+}
+
+#cssSection.card-header{
+    background: radial-gradient(var(--leather), red);
+}
+#cssSection{
+    background:radial-gradient(var(--blue) 60%, var(--gray));
+    overflow:hidden;
+}
+
+@keyframes wordAnimation {
+    0%,100% {
+        
+    }
+    50%{
+        color:red;
+        font-weight:700;
+
+    }
+}
+#animationForWord{
+    animation-name:wordAnimation;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+    display:inline-block;
+    
+}
+
+.animateJsHeader{
+    animation: jsHeader;
+    animation-duration:6s;
+    
+}
+.animateJsText{
+    animation: jsText;
+    animation-duration:7s;
+
+}
+.rotateText{
+    animation: rotateText;
+    display:inline-flex;
+    animation-delay:10s;
+    animation-duration:2s;
+    animation-iteration-count:infinite;
+}
+.shrinkText {
+    animation: shrinkText;
+    display: inline-flex;
+    position:absolute;
+    animation-delay: 10s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.changeTextColor {
+    animation: changeTextColor;
+    display: inline-flex;
+    animation-delay: 10s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes jsHeader{
+    from{
+        margin-left:-5000px;
+        margin-right:5000px;
+
+    }
+    to{
+        margin-left:initial;
+        margin-right:initial;
+    }
+}
+
+@keyframes jsText{
+    from{
+        margin-right:-5000px;
+        margin-left:5000px;
+    }
+    to{
+        margin-right:initial;
+        margin-left:initial;
+    }
+}
+
+@keyframes rotateText{
+    from{
+
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
+
+@keyframes shrinkText{
+    0%,100%{
+        font-size:initial;
+    }
+    50%{
+        font-size:11pt;
+    }
+}
+
+@keyframes changeTextColor{
+    0%, 100%{
+        color:initial;
+    }
+    50%{
+        color:red;
+    }
+}
+
+
+

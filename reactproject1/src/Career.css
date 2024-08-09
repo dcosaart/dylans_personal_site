@@ -1,0 +1,62 @@
+@import "./App.css";
+
+
+.accordion-header{
+    background-color:var(--blue);
+}
+
+section {
+    border-left: groove var(--leather) 2px;
+    padding-left: 5px;
+    margin: 20px auto 20px 50px;
+}
+
+section:has(div) {
+    padding-bottom: 50px;
+}
+
+section > div {
+    margin-left: 50px;
+    border-left: groove var(--blue) 2px;
+    margin-top: 10px;
+    padding: 10px 0px 10px 5px;
+}
+h2.expHeader {
+    color: var(--gray);
+    font-size: 40px ;
+    background-color: transparent;
+    display:block;
+    
+    border-bottom: groove var(--leather) 2px;
+}
+
+#projectList {
+    columns: 2;
+    width:100%;
+}
+
+.list-group-item.active{
+    background-color:var(--blue);
+    color:var(--gray);
+    border:none;
+}
+
+.list-group-item{
+    color:var(--gray);
+}
+
+.col{
+    border: solid var(--gray);
+   
+    background:var(--lightBlue) 1px;
+    padding:5px;
+}
+
+.row{
+    margin:20px;
+}
+.col > h3 {
+    display: block;
+    border-bottom: groove var(--leather) 2px;
+}
+

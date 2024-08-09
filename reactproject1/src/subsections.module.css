@@ -1,0 +1,49 @@
+@import './App.css';
+.reset_style, .reset_style * {
+    all: revert;
+}
+.reset_style{
+    align-content:center;
+}
+.button {
+    color: black;
+    border: 1px solid LightSkyBlue;
+    background:var(--leather);
+    text-align: center;
+    font-size: 100%;
+    font-family: inherit;
+}
+
+
+.gameBoard {
+   font: 85px arial, sans-serif;
+   margin: 3px;
+   margin-right:auto;
+   margin-left:19%;
+
+   display: grid;
+   grid-template-columns: 100px 100px 100px;
+   grid-template-rows: 100px 100px 100px;
+   grid-gap: 10px;
+}
+
+.input{
+    background-color:white;
+    color:black;
+    margin:5px;
+}
+
+.convertBtn {
+    margin-right: 10px;
+    background-color: white;
+    color: black;
+}
+
+.errorMsg{
+    color:red;
+}
+
+.form{
+    align-content:flex-start;
+}
+

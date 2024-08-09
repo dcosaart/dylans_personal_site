@@ -1,0 +1,16 @@
+@import "./App.css";
+
+
+#resume_btn{
+    margin-left:0px;
+}
+
+#resume_link{
+    color:white;
+    text-decoration:none;
+}
+
+#resume_iframe {
+    border: 2px solid var(--leather);
+    border-radius:8px;
+}

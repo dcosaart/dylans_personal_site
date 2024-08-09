@@ -1,0 +1,63 @@
+@import "./App.css";
+
+#wsuVidContainer{
+    align-content:center;
+}
+
+#wsuVidHeader {
+    background: rgba(0, 0, 0, 0.7);
+    background-image: none;
+    position: absolute;
+    margin-left: 15%;
+    margin-right: auto;
+    margin-top: 0px;
+    color: #ffc217;
+    padding: 10px;
+    font-size: 70px;
+}
+
+#wsuVid{
+    width:100%;
+}
+
+/*#accordionClasses{
+    margin-left:47px;
+}
+
+#classesOne{
+   
+    width:5%;
+    display:flex;
+
+    transform:rotate(-90deg);
+    margin-bottom:100px;
+}
+
+#fall_cls_btn {
+    transform: rotate(90deg);
+    white-space: nowrap;*/ /* Ensure the text stays on one line */
+    /*padding-top:35px;
+    padding-bottom:35px;
+}*/
+
+#accordionClasses{
+    margin-left:0;
+    border-left:none;
+}
+#classes{
+    padding-bottom:0;
+}
+
+#credit{
+    display:block;
+    margin-bottom:250px;
+}
+
+#transcript_link {
+    color: white;
+    text-decoration: none;
+}
+#highlights{
+    margin-bottom:50px
+}
+

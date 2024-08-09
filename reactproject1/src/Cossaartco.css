@@ -1,0 +1,99 @@
+.reset_style, .reset_style * {
+    all: revert;
+}
+
+
+
+#header {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    color: antiquewhite;
+    text-align: center;
+    box-shadow: lightgray 1px 1px;
+    background-color: brown;
+    border-radius: 3px;
+    border: 2px solid yellow;
+    padding: 5px;
+    background-size: auto;
+}
+
+
+table {
+    margin-top: 10px;
+    font-size: 14pt;
+    background-color: whitesmoke;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: lightgray 2px 2px;
+    border-radius: 2px;
+}
+
+td {
+    padding: 5px;
+}
+
+label {
+    display: block;
+}
+
+input, button {
+    padding: 10px;
+}
+
+#productName, #cityName {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#clearFormButton {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    background-color: darkgray;
+    color: white;
+    border-radius: 5px;
+    box-shadow: black 1px 1px;
+    font-size: 14pt;
+}
+
+#searchProductsButton {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 5px;
+    box-shadow: black 1px 1px;
+    font-size: 14pt;
+}
+#returnBtn {
+    width: 50%;
+    margin-top:2%;
+    box-sizing: border-box;
+    padding: 15px;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 5px;
+    box-shadow: black 1px 1px;
+    font-size: 14pt;
+}
+
+    #clearFormButton:hover, #searchProductsButton:hover {
+        transform: scale(1.01);
+        cursor: pointer;
+    }
+
+    #clearFormButton:active, #searchProductsButton:active {
+        filter: brightness(85%);
+        transform: scale(0.99);
+    }
+
+input{
+    color:white;
+}
+.errorMsg {
+    font-size: 9pt;
+    color: red;
+}

@@ -1,0 +1,112 @@
+@import 'App.css';
+.reset_style, .reset_style * {
+    all: revert;
+}
+
+
+.swiper-title {
+    text-align: start;
+    font-size: 50px;
+    color:black;
+    background:none;
+    border-bottom:2px groove var(--gray);
+    
+
+}
+swiper-slide{
+    padding:50px;
+    border-right:1px solid black;
+}
+small {
+    color:black;
+}
+#swipe-right{
+    text-align:start;
+    color:darkred;
+}
+.swiper_header {
+    border-radius: 5px 5px 0px 0px;
+    background: var(--leather);
+    border-bottom: 2px groove var(--gray);
+    text-align:start;
+    padding:0px 10px 0px 10px;
+}
+#swiper{
+    background-color:var(--blue);
+    border:1px solid var(--gray);
+    border-radius:0px 0px 5px 5px;
+
+}
+#ttt_slide {
+
+    padding-left:25px;
+}
+
+.swiperSlide.double {
+    width: 1000px;
+}
+/* Dashed border */
+hr.dashed {
+    border-top: 3px dashed var(--leather);
+    
+}
+
+/* Dotted border */
+hr.dotted {
+    border-top: 3px dotted #bbb;
+}
+
+/* Solid border */
+hr.solid {
+    border-top: 3px solid #bbb;
+}
+
+/* Rounded border */
+hr.rounded {
+    border-top: 8px solid #bbb;
+    border-radius: 5px;
+}
+#header {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    color: antiquewhite;
+    text-align: center;
+    box-shadow: lightgray 1px 1px;
+    background-color: brown;
+    border-radius: 3px;
+    border: 2px solid yellow;
+    padding: 5px;
+    background-size: auto;
+}
+
+#desc {
+    margin-top:25px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    color: antiquewhite;
+    text-align: center;
+    box-shadow: lightgray 1px 1px;
+    background-color: var(--gray);
+    border-radius: 3px;
+    border: 2px solid var(--leather);
+    padding: 5px;
+    background-size: auto;
+    text-align:start;
+}
+
+iframe{
+    border-radius:5px;
+}
+img{
+    border-radius:5px;
+}
+
+swiper-slide{
+    height:700px;
+}
+
+#spotify_slide{
+    height:870px;
+}
